@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgba(228, 220, 220, 0.662);
+}
+.header{
+    background-color: orange;
+    height: 65px;
+    display: flex;
+    align-items: center;
+}
+.animation{  
+    /* background-color: blue; */
+    font-size: 20px;
+    animation-name: x;
+    animation-duration: 13s;
+    animation-delay: 1s;
+    position: relative;
+    animation-iteration-count: infinite; 
+}
+@keyframes x {
+    0% { left: 0; top:0;    }
+    100% { left: 100%; top: 0; }
+   
+} 
+.logo{
+    height: 28px;
+    width: 130px;
+    margin-left: 20px;
+}
+.header_list{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+   margin-top: 30px;
+   background-color: white;
+
+}
+
+.inp input {
+width: 450px;
+height: 40px;
+border-radius: 6px;
+border: solid rgb(173, 159, 159) 0.5px;
+padding-left: 20px; 
+border-radius: 5px; 
+padding-left: 20px;  
+}
+.inp button{
+    height: 37px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    background-color: orange ;
+
+}
+.writing{
+    display: flex;
+    flex-direction: row;
+    width: 270px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: medium;
+    list-style: none;
+}
+.icon {
+    background-color: white;
+    display: flex;
+    justify-content: left;
+    width: 220px;
+    height: 400px;
+    margin-left: 85px;
+    margin-top: 20px;
+}
+.ic {
+    font-size: 14px;
+    margin-top: 8px;
+    margin-left: 23px;
+    list-style: none;
+}
+.log {
+    width: 700px;
+    margin-left: 15px;
+    margin-top: 20px;
+   
+}
+.icones {
+    background-color: white;
+    display: flex;
+    justify-content: right;
+    width: 220px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.row {
+    display: flex;
+    justify-content: row;
+}
+.ico {
+   margin-top: 25px;
+   margin-right: 50px;
+   list-style: none;
+}
+.imm {
+    margin-top: 10px;
+    margin-left:20px ;
+}
+.down {
+    margin-left: 84px;
+   width: 1180px;
+   margin-top: 20px;
+}
